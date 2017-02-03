@@ -37,7 +37,7 @@ class MainHandler(webapp2.RequestHandler):
        # textarea = "<textarea name = 'message'>"+"</textarea>"
        # submit = "<input type = 'submit'/>"
        # form = "<form method = 'post'>" + rot_label + rotation_input +"<br>"  + message_label + textarea +"<br>"+submit+ "</form>"
-        self.response.write(form)
+        self.response.write(content)
     
     def post(self):
         
